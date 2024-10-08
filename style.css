@@ -4,6 +4,7 @@
   --black: #000;
   --light-blue: #00ebc7;
   --light-yellow:#fde24f;
+  --light-pink:#cfbaff;
 }
 
 body {
@@ -231,5 +232,20 @@ margin: 0 auto;
     border-radius: 10px;
     margin-bottom: 10px;
     font-size: 18px;
+    font-weight: 600;
+}
+
+/* Commission Section Style  */
+
+.commission-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: var(--light-pink);
+}
+.commission-section p{
+    font-size: 40px;
     font-weight: 600;
 }
