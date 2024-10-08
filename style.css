@@ -1,0 +1,214 @@
+:root {
+  --light-gray: rgb(221, 213, 213);
+  --white: #fff;
+  --black: #000;
+  --light-blue: #00ebc7;
+  --light-yellow:#fde24f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.share-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+  border: 2px solid var(--light-gray);
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color:var(--white);
+}
+/* Header Style  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 3px 5px;
+}
+.navbar ul li a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: var(--light-gray);
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.active-btn {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Hero Section Style  */
+.hero-section {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  width: 100%;
+  height: 760px;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+}
+.hero-text {
+  padding: 40px 15px;
+  border-radius: 8px;
+  width: 70%;
+  background-color: var(--white);
+  margin-bottom: 50px;
+}
+
+#currency{
+    width: 100%;
+}
+
+.hero-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.select-options {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 10px;
+}
+.select-options select {
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.input-section input[type="text"] {
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  flex: 1;
+}
+
+.offer-btn {
+  background-color: var(--light-blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Favorite-section Style  */
+.favorite-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: var(--light-yellow);
+}
+
+/* Features-section Style  */
+
+.features-section {
+  padding: 10px;
+width: 100%;
+margin: 0 auto;
+}
+
+.features-section h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.feature-btn{
+    color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.feature-cards hr{
+    width: 20%;
+    border: 1px solid var(--black);
+    border-radius: 50px;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.feature-card p{
+    text-align: center;
+}
+
+/* Buy Sell Section Style  */
+.buy-sell-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid var(--black);
+}
