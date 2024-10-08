@@ -249,3 +249,45 @@ margin: 0 auto;
     font-size: 40px;
     font-weight: 600;
 }
+
+/* Footer section Style  */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+}
+
+.footer-card p{
+    font-size: 28px;
+}
+
+.footer-card ul li{
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+footer hr{
+    width: 100%;
+}
