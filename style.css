@@ -207,8 +207,29 @@ margin: 0 auto;
 /* Buy Sell Section Style  */
 .buy-sell-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    margin-top: 20px;
+}
+.buy-card{
     border: 1px solid var(--black);
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.sell-card{
+    border: 1px solid var(--black);
+    border-left: none;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    border:2px solid var(--black);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
