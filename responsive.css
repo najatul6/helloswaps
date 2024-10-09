@@ -1,7 +1,11 @@
 /* Small devices: ≤576px */
 @media (max-width: 576px) {
   .container {
-    padding: 5px 5px;
+    padding: 5px 0px;
+  }
+
+  .share-btn{
+    padding: 10px;
   }
 
   header {
@@ -35,16 +39,70 @@
   .favorite-section{
     padding: 30px 5px;
     text-align: center;
+    
   }
   .favorite-section img{
     width: 100%;
     height: auto;
+  }
+  .features-section{
+    padding: 0;
+  }
+  .features-section h3{
+    font-size: 20px;
   }
   .feature-cards{
     flex-direction: column;
   }
   .feature-cards hr{
     width: 100%;
+  }
+
+  .buy-sell-section{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .buy-sell-section h2{
+    font-size: 20px;
+  }
+  .buy-card{
+    padding: 0px;
+  }
+  .sell-card{
+    padding: 0px;
+    border-left: 1px solid var(--black);;
+    
+  }
+  .offer{
+    flex-direction: column;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+  .offer img{
+    width: 20%;
+    height: auto;
+  }
+  
+  .commission-section p{
+    font-size: 16px;
+    text-wrap: wrap;
+  }
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-card{
+    text-align: center;
+    gap: 0;
+  }
+  .footer-card ul{
+    display: block;
+    padding: 0;
+  }
+  .footer-card p {
+    font-size: 18px;
   }
 }
 
