@@ -1,24 +1,57 @@
-
 /* Small devices: ≤576px */
 @media (max-width: 576px) {
-    .container{
-      padding: 5px 5px;
-    }
+  .container {
+    padding: 5px 5px;
+  }
 
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-      }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
-  
-  /* Tablet: ≥768px */
-  @media (min-width: 768px) {
-    
+  .navbar{
+    display: none;
   }
-  
-  /* Desktop: ≥992px */
-  @media (min-width: 992px) {
-    
+  .navbar-end {
+    display: none;
   }
+  .menu-btn{
+    display: block;
+  }
+  .hero-content{
+    top: 10%;
+  }
+  .select-options{
+    flex-direction: column;
+  }
+  .input-section{
+    flex-direction: column;
+  }
+  .input-section input[type="text"] {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .favorite-section{
+    padding: 30px 5px;
+    text-align: center;
+  }
+  .favorite-section img{
+    width: 100%;
+    height: auto;
+  }
+  .feature-cards{
+    flex-direction: column;
+  }
+  .feature-cards hr{
+    width: 100%;
+  }
+}
+
+/* Tablet: ≥768px */
+@media (min-width: 768px) {
+}
+
+/* Desktop: ≥992px */
+@media (min-width: 992px) {
+}
