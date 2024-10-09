@@ -3,6 +3,9 @@
   .container {
     padding: 5px 0px;
   }
+  .logo img{
+    width: 80%;
+  }
 
   .share-btn{
     padding: 10px;
