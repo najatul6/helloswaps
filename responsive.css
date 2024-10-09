@@ -1,0 +1,24 @@
+
+/* Small devices: ≤576px */
+@media (max-width: 576px) {
+    .container{
+      padding: 5px 5px;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+  }
+  
+  /* Tablet: ≥768px */
+  @media (min-width: 768px) {
+    
+  }
+  
+  /* Desktop: ≥992px */
+  @media (min-width: 992px) {
+    
+  }

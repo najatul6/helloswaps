@@ -30,6 +30,7 @@ a {
   border: 2px solid var(--light-gray);
   border-radius: 50px;
   font-size: 20px;
+  cursor: pointer;
   font-weight: 700;
   color: var(--white);
 }
@@ -55,6 +56,13 @@ header {
   font-weight: 600;
 }
 
+.navbar-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .btn {
   padding: 10px 20px;
   background-color: var(--light-gray);
@@ -62,11 +70,13 @@ header {
   border-radius: 50px;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .active-btn {
   background-color: var(--black);
   color: var(--white);
+  cursor: pointer;
 }
 
 /* Hero Section Style  */
@@ -148,6 +158,7 @@ header {
   border-radius: 50px;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* Favorite-section Style  */
@@ -178,6 +189,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   margin-top: 20px;
 }
 
@@ -291,3 +303,6 @@ footer {
 footer hr {
   width: 100%;
 }
+
+
+/* Responsive Style  */
